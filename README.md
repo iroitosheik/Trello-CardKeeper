@@ -1,6 +1,7 @@
 # Trello-CardKeeper
 An Alfred 3 workflow using Trello add-card function  <br />
-Add card to various trello list in various trello board with **only one keyword** !
+Add card to various trello list in various trello board with **only one keyword** !<br /><br />
+ ![One keyword, various actions with key holding](/TCK-demo.gif "One keyword, various actions with key holding")<br /><br />
 
 ## The idea
 
@@ -13,17 +14,22 @@ So i decided to make a simple trello workflow that doesn't use API key and allow
 
 1- Install the workflow in trello by downloading it and opening it with alfred.
 
-2- Clic on the *[x]* logo in the upper right corner ( named "Configure workflow and variables" )
+2- Clic on the *[x]* logo in the upper right corner ( named "Configure workflow and variables" )<br /><br />
+    ![Clic on the Variables Menu](/Step2.png "Clic on the Variables Menu")<br /><br />
 
-3- Change the names of *List_default , List1, List2 ...* depending on what you want to see when adding a card
+3- Change the names of *List_default , List1, List2 ...* depending on what you want to see when adding a card<br /><br />
+    ![Edit List names and save](/Step3.png "Edit List names and save")<br /><br />
 
 4- **This is the key step**, open the alfred searchbox and type <code>config tck</code> or go directly to *http://trello.com/add-card*. <br />
     Clic on the option *"create a link that adds cards to a specific board or list"* and search for the list you want to be adding trello cards to.
   
 5- Once that list selected and the *"Send to trello"* shortcut created, you have to **use it to find the right "idList"**.  <br />
-      Add the link in your bookmark as suggested by trello, then clic on it. A trello page will pop up. Explore the adress bar, that should look like this : <br /> 
+      Add the link in your bookmark as suggested by trello, then clic on it. <br /><br />
+    ![Use the pop-up adress bar](/Step5.png "Use the pop-up adress bar")<br /><br />
+      A trello page will pop up. Explore the adress bar, that should look like this : <br /> 
       https://trello.com/add-card?source=trello.com&mode=popup&url=https%3A%2F%2Ftrello.com%2Fadd-card&name=Cr%C3%A9er%20une%20carte%20Trello%20depuis%20n%27importe%20quelle%20page%20web&idList=56********************e0<br />
-      Just copy the variable after *"idList="* and **paste it into alfred** variable configuration menu, under *ListXid* or *List_default_id*.
+      Just copy the variable after *"idList="* and **paste it into alfred** variable configuration menu, under *ListXid* or *List_default_id*.<br /><br />
+    ![Copy idList numbers](/Step6.png "Copy idList numbers")<br /><br />
       
 6- You got it ! Your shortcut is now linked to the right board and list. **Repeat steps 4 and 5** to find other ListXid (you have 5 slots available, besides the default one)
 
