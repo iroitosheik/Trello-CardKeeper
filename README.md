@@ -12,7 +12,7 @@ So i decided to make a simple trello workflow that doesn't use API key and allow
 
 ## Instructions
 
-1- Install the workflow in trello by downloading it and opening it with alfred.
+1- Clic [This link](https://github.com/iroitosheik/Trello-CardKeeper/raw/master/Trello%20Cardkeeper%20V1.alfredworkflow) to download the workflow. Install it in Alfred opening it with alfred.
 
 2- Clic on the *[x]* logo in the upper right corner ( named "Configure workflow and variables" )<br /><br />
     ![Clic on the Variables Menu](/Step2.png "Clic on the Variables Menu")<br /><br />
