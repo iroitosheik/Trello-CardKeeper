@@ -42,6 +42,3 @@ So i decided to make a simple trello workflow that doesn't use API key and allow
 ##Limitations
 **All this workflow works on the trello add-card page**. If it becomes deprecated, the workflow will not work anymore.
 In that case, try the Trello official browser extension, which is pretty great !
-
-##Comming next 
-- Better instructions with screenshots
