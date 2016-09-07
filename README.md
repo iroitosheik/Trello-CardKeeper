@@ -10,6 +10,12 @@ After testing various trello workflows for Alfred, I was surprised to find lots 
 These issues kept me from using alfred as a quick way to create card in trello, whitch i do a lot for idea capturing. <br />
 So i decided to make a simple trello workflow that doesn't use API key and allows you to post your card in various boards and lists easily.
 
+## Requirements
+
+-A trello account<br />
+-Alfred 3 and the powerpack !<br />
+-Patience<br />
+
 ## Instructions
 
 1- Clic [This link](https://github.com/iroitosheik/Trello-CardKeeper/raw/master/Trello%20Cardkeeper%20V1.alfredworkflow) to download the workflow. Install it in Alfred opening it with alfred.
